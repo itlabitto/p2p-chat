@@ -1,0 +1,31 @@
+The code works with Python 3 tested in Linux, but should work in Windows and Mac with Python 3 installed.
+The code works in a closed environment.
+
+Only the library qt4 needs to be installed, all the rest are part of standard library. Library Installation, type in the command line:
+
+sudo apt-get install python3-pyqt4
+
+
+Installation instructions:
+-Unzip the files
+-Using the command line, go to the folder where files are located.
+
+Starting the server:
+-Type: python3 server.py
+
+Starting the peers GUI:
+-Type: python3 p1.py
+-Type: python3 p2.py
+-Type: python3 p3.py
+etc
+
+Starting the peer client_console:
+-Type: python3 client.console.py
+
+It will ask for name:
+-Enter your nickname
+-Enter the port corresponding to the server, port available.
+
+
+I enabled a server at home for testing at IP 46.7.61.198 port 9876
+It may work depending on your firewall.
